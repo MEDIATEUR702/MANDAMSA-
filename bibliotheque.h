@@ -16,16 +16,14 @@ int estPremier(int n);
 int est_premier(int n);
 
 
-// Structure d'un point 
-typedef struct
-{
+// Définition de la structure Point
+typedef struct {
     float x;
     float y;
 } Point;
 
-// Prototype de la fonction 
+// Déclaration de la fonction distance
 float distance(Point p1, Point p2);
-
 
 #endif
 

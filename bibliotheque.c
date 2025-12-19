@@ -70,9 +70,9 @@ int est_premier(int n) {
     return 1;  
 }
 
-// Calcul de la distance entre deux points
+// Définition de la fonction distance
 float distance(Point p1, Point p2) {
     float dx = p2.x - p1.x;
     float dy = p2.y - p1.y;
-    return sqrt(dx*dx + dy*dy);
+    return sqrtf(dx * dx + dy * dy); // sqrtf pour float
 }

@@ -34,5 +34,14 @@ float x2=0;
     resoudreEquation(a, b, c);
     return 0;
 
+    Point A = {0.0f, 0.0f};
+    Point B = {3.0f, 4.0f};
+
+    float d = distance(A, B);
+
+    printf("La distance entre A et B est : %.2f\n", d);
+
+    return 0;
+
     return EXIT_SUCCESS;
 }

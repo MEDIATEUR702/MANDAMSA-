@@ -17,14 +17,14 @@ int main(void) {
     printf("Apres permutation a=%d , b=%d\n",first, second);
 
    
-    // int valeur = 29;
-    // if (estPremier(valeur)) {
-    //     printf("%d est un nombre premier.\n", valeur);
-    // } else {
-    //     printf("%d n'est pas un nombre premier.\n", valeur);
-    // }
+    int valeur = 29;
+    if (est_premier(valeur)) {
+        printf("%d est un nombre premier.\n", valeur);
+    } else {
+        printf("%d n'est pas un nombre premier.\n", valeur);
+    }
 
-    float a = 2;
+float a = 2;
 float b =2;
 float c=0;
 float x1=0;
